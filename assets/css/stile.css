@@ -56,7 +56,7 @@ header li a{
   font-family: 'Georama', sans-serif;
 
 }
-h1{
+header h1{
   padding-top: 2rem;
   color: white;
   font-style:'Oswald', sans-serif;
@@ -547,7 +547,7 @@ padding-bottom: 5rem;
 
 
 @media (max-width:770px){
-  .principal h1{
+  header h1{
     display:block;
     text-align: center;
     margin-right: 2rem;
@@ -560,7 +560,7 @@ padding-bottom: 5rem;
     margin: 0;
     
   }
-  .principal ul{
+  header ul{
     padding-top: 2rem;
     flex-direction: column;
     padding-top: 1rem;
@@ -580,7 +580,7 @@ padding-bottom: 5rem;
   }
 
   
-  li{
+  header li{
     text-align: center;
     
   }
