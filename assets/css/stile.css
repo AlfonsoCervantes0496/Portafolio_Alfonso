@@ -457,6 +457,12 @@ padding-bottom: 5rem;
     border-style: outset;
     border-color: black;
     border-top-right-radius: 15px;
+
+  }
+  .ejemplo_proyecto a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #DA0037;
   }
   .descripcion_proyecto{
     padding: 2rem;
@@ -982,7 +988,64 @@ padding-bottom: 5rem;
     80%{margin-left: -380%;}
     100%{margin-left: -500%;}
   }
+
+  .contacto{
+    margin-top: 3rem;
+      width: 100%;
+    background-color: #2C394B;
+    padding-top: 3rem;
+  }
+  .anexo{
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #334756;
+    border-style: outset;
+    border-color: #FF4C29;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .anexo p{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+    
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #FF4C29;
+  }
+  .anexo h4{
+    font-size: 1rem;
+    color: #EEEEEE;
+    text-align: center;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
   
+
+
+  }
+  .anexo h6{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #FF4C29;
+    text-align: center;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #name, #tel, #email{
+    align-items: center;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-radius: 15px;
+    border-color: white;
+    background-color: transparent;
+
+  }
 
 
     
