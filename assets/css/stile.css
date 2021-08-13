@@ -451,7 +451,7 @@ padding-bottom: 5rem;
     margin-top: 2rem;
     display: flex;
     width: 80%;
-    height: 15rem;
+    height: 16rem;
     margin-left: 10%;
     margin-right: 10%;
     border-style: outset;
@@ -484,6 +484,10 @@ padding-bottom: 5rem;
     margin-top: 1rem;
     height: 0.2rem;
     width: 100%;
+    
+  }
+  .separadorAzul a{
+    margin-bottom: 1rem;
   }
 .titulo_proyecto{
   font-family: 'Ubuntu', sans-serif;
@@ -668,7 +672,11 @@ padding-bottom: 5rem;
       color: #DA0037;
       padding-top: 0;
       font-size: 3rem;
-      justify-content: center;
+     text-align: center;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+
   
     }
 
@@ -683,25 +691,27 @@ padding-bottom: 5rem;
       padding: 1rem;
       border-width: 0.2rem;
       animation: inicio 1.5s;
-      margin-left: 30%;
+      margin-left: 25%;
+      margin-right: 25%;
       height: 4rem;
       margin-bottom: 2rem;
-      width: 6.9rem;
+      width: 50%;
+
       
     
     }
     @keyframes inicio{
       0%{width:  0rem;
-        margin-left: 60%;
+        margin-left: 50%;
       height: 0px;
     font-size: 0;}
-      50%{width:  6.9rem;
-        margin-left: 30%;
+      50%{width:  50%;
+        margin-left: 25%;
       height: 0px;
       font-size: 0;}
       100%{
-        width:  6.9rem;
-        margin-left: 30%;
+        width:  50%;
+        margin-left: 25%;
       height: 4rem;
       font-size: 1rem;
         
@@ -716,13 +726,15 @@ padding-bottom: 5rem;
 }
 .sub{
   width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   display: flex;
   flex-direction: column;
   
   
 }
 .sub img{
-  margin-left: 30%;
+  width: 100%;
 
 }
 .textosobre{
@@ -730,7 +742,8 @@ padding-bottom: 5rem;
   font-size: 3rem;
   align-items: center;
   font-family: 'Anton', sans-serif;
-  margin-left: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
 
 }
 .Subtitulo1{
@@ -990,10 +1003,11 @@ padding-bottom: 5rem;
   }
 
   .contacto{
-    margin-top: 3rem;
+   
       width: 100%;
     background-color: #2C394B;
-    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
   }
   .anexo{
     
@@ -1005,12 +1019,18 @@ padding-bottom: 5rem;
     border-color: #FF4C29;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+   
+    padding-bottom: 3rem;
+    
   }
+ 
   .anexo p{
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     
     font-size: 2rem;
     font-family: 'Roboto Mono', monospace;
@@ -1028,7 +1048,7 @@ padding-bottom: 5rem;
 
   }
   .anexo h6{
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-size: 1.5rem;
     color: #FF4C29;
     text-align: center;
@@ -1044,6 +1064,59 @@ padding-bottom: 5rem;
     border-radius: 15px;
     border-color: white;
     background-color: transparent;
+    margin-bottom: 0;
+  color: white;
+  text-align: center;
+  
+
+
+  }
+  .env{
+    background-color: transparent;
+    border-color: white;
+    border-radius: 15rem;
+    padding: 1rem;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1rem;
+    font-family:'Roboto Mono', monospace ;
+    color: white;
+  }
+  .env:hover{
+    background-color: white;
+    color:#FF4C29 ;
+  }
+  .redesIMG{
+    overflow: hidden;
+   
+
+  
+   
+  }
+  .redesIMG img{
+    width: 100%;
+   
+    
+    
+    
+  }
+  .redesS{
+    list-style: none;
+    display: flex;
+    
+  
+   
+
+    
+  }
+  .redesS li{
+    width: 30%;
+    height: 3rem;
+   
+  }
+  
+
 
   }
 
@@ -1052,4 +1125,3 @@ padding-bottom: 5rem;
 
 
 
-}
